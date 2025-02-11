@@ -1,0 +1,72 @@
+@import "./variables";
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  background-color: #1d1d1d;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// body {
+//   padding-top: 65px;
+// }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+label,
+textarea {
+  color: $text-clr-1;
+}
+p {
+  font-size: 1rem;
+}
+h2 {
+  font-size: 2rem;
+}
+// html {
+//   overflow-y: scroll;
+// }
+// $page-padding-lr-desktop: 48px;
+// $page-padding-lr-mobile: 16px;
+
+// section {
+//   padding-left: $page-padding-lr-desktop;
+//   padding-right: $page-padding-lr-desktop;
+// }
+
+$max-width-desktop: 1440px;
+$max-width-mobile: 640px;
+
+header,
+main,
+footer {
+  margin: 0 auto;
+}
+
+// ::-webkit-scrollbar {
+//     display: none;
+// }
+
+@media (max-width: $max-width-mobile) {
+  section {
+    padding-left: $page-padding-lr-mobile;
+    padding-right: $page-padding-lr-mobile;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
