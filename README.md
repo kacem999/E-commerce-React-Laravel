@@ -1,2 +1,7 @@
-# E-commerce-React-Laravel-
-E-commerce platform build with React and Laravel 
+# E-Commerce Platform
+
+## Project Structure
+- `frontend/`: React app
+- `Server/ecommerce-backend`: Laravel API
+
+
