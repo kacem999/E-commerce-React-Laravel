@@ -1,13 +1,11 @@
 import { useState } from 'react'
 import './App.scss'
-
+import Home from './pages/Home.jsx'
 function App() {
 
   return (
     <>
-      <p className="text-[36px]">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Home />
     </>
   )
 }
